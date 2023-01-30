@@ -25,13 +25,13 @@ public class Boj_16926_배열돌리기1 {
 		for (int i = 0; i < R; i++) {
 			rotateArr(arr, N, M, square);						
 		}
-		print(arr);
-//		for (int i = 0; i < N; i++) {
-//			for (int j = 0; j < M; j++) {
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < M; j++) {
+				System.out.print(arr[i][j]+" ");
 //				System.out.printf("%d ", arr[i][j]);
-//			}
-//			System.out.println("");
-//		}
+			}
+			System.out.println();
+		}
 	}
 
 	private static void rotateArr(int[][] arr, int N, int M, int s) {
@@ -54,14 +54,4 @@ public class Boj_16926_배열돌리기1 {
 			arr[i+1][i] = temp;
 		}
 	}
-	
-    private static void print(int[][] arr) {
-        for (int[] is : arr) {
-            for (int i : is) {
-                System.out.print(i + " ");
-            }
-            System.out.println();
-        }
-    }
-
 }
