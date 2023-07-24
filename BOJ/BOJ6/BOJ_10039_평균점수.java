@@ -15,5 +15,4 @@ public class BOJ_10039_평균점수 {
 		}
 		System.out.println(sum/5);
 	}
-
 }
