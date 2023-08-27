@@ -2,6 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,eclipse
 
 ### Eclipse ###
+/.idea
+.pdf
 .class
 .classpath
 .project
@@ -17,7 +19,6 @@ local.properties
 .loadpath
 .recommenders
 
-/pro
 
 
 # External tool builders
