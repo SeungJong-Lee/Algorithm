@@ -29,13 +29,3 @@ public class Boj_2943_탑2 {
 		System.out.println(sb);
 	}
 }
-
-class Top{
-	public int height;
-	public int idx;
-	public Top(int h, int i){
-		this.height = h;
-		this.idx = i;
-	}
-	
-}
